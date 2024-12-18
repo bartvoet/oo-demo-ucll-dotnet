@@ -1,4 +1,4 @@
-namespace basketapp;
+namespace basketapp.domain;
 class QuantityBasketItem : BasketItem
 {
     public QuantityBasketItem()
