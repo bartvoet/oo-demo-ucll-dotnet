@@ -21,6 +21,6 @@ class BasketItem
 
     public override string ToString()
     {
-         return $"BasketItem with id {Id}: {Description} with {Price}";
+         return $"BasketItem met id {Id}: {Description} voor een totale prijs van {CalculateTotalPrice()}";
     }
 }

@@ -1,4 +1,4 @@
-namespace basketapp;
+namespace basketapp.domain;
 class Basket
 {
     private int IdCounter = 0;

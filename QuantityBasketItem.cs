@@ -16,6 +16,6 @@ class QuantityBasketItem : BasketItem
 
     public override string ToString()
     {
-        return base.ToString() + $", with {Quantity} as quantity";
+        return base.ToString() + $", met {Quantity} als hoeveelheid";
     }
 }

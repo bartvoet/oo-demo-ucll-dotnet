@@ -1,4 +1,6 @@
 ﻿namespace basketapp;
+
+using basketapp.domain;
 class Program
 {
     private static string MENU = 

@@ -19,6 +19,6 @@ class BulkBasketItem : BasketItem
 
     public override string ToString()
     {
-        return base.ToString() + $", with {Weight} as weight";
+        return base.ToString() + $", met {Weight} als gewicht";
     }
 }
