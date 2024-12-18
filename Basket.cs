@@ -7,7 +7,8 @@ class Basket
     public string Name { get; private set; }
     
 
-    public Basket(string name) {
+    public Basket(string name) 
+    {
         if ( string.IsNullOrWhiteSpace( name ) ) {
             throw new ArgumentNullException( "name" );
         }
@@ -15,7 +16,8 @@ class Basket
         Name = name;
     }
 
-    public void AddItem(BasketItem basketItem) {
+    public void AddItem(BasketItem basketItem) 
+    {
         basketItem.Id = IdCounter++;
         BasketItems.Add(basketItem);
     }
